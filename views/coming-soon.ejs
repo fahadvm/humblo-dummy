@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Humblo - Discover our delicious tropical snacks including coconut chips, masala coconut chips, ripe jackfruit, and oil-free banana chips.">
+    <meta name="author" content="Humblo">
+    <title>Humblo - Coming Soon</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/templatemo-humblo.css" rel="stylesheet">
+
+    <style>
+        .coming-soon-title {
+            font-size: 3.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #222;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            position: relative;
+            animation: zoomIn 1s ease-out;
+        }
+
+        .dots span {
+            display: inline-block;
+            font-size: 3.5rem;
+            color: #222;
+            animation: bounce 1.2s infinite;
+        }
+
+        .dots span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .dots span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .coming-soon-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background: linear-gradient(135deg, #c400ff, #ff6b6b); */
+            background-image: url(../public/images/favicon.png);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .coming-soon-content {
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .coming-soon-content h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .coming-soon-content p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .coming-soon-content .btn {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .coming-soon-content h1 {
+                font-size: 2.5rem;
+            }
+            .coming-soon-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-shop custom-icon me-2"></i>
+                            <strong class="text-dark">Welcome to Humblo </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/">Humblo</a>
+                <a href="/" class="btn custom-btn d-lg-none ms-auto me-4">Order Now</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_2">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_3">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_4">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_5">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_6">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="/" class="btn custom-btn d-lg-block d-none">Order Now</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="coming-soon-section" id="section_1">
+            <div class="container">
+                <div class="coming-soon-content">
+                    <h1 class="coming-soon-title">We're Arriving Soon<span class="dots"><span>.</span><span>.</span><span>.</span></span></h1>
+                    <p>Thank you for your patience! Humblo is preparing something exciting. Stay tuned for our delicious tropical snacks, crafted with love and natural ingredients.</p>
+                    <a class="btn custom-btn smoothscroll" href="/#section_1">Get Notified</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-lg-0">Humblo</h2>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                        <ul class="social-icon d-flex justify-content-lg-end">
+                            <li class="social-icon-item">
+                                <a href="https://www.facebook.com/share/19HShRCwsT/" class="social-icon-link">
+                                    <span class="bi-facebook"></span>
+                                </a>
+                            </li>
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/humbloeats.india/profilecard/?igsh=MTFnaGMwYmpuZmdyZQ==" class="social-icon-link">
+                                    <span class="bi-instagram"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4 pb-2">
+                    <h5 class="site-footer-title mb-3">Links</h5>
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="/#section_1" class="site-footer-link">Home</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a href="/#section_2" class="site-footer-link">About</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a href="/#section_3" class="site-footer-link">Products</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a href="/#section_4" class="site-footer-link">Categories</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a href="/#section_5" class="site-footer-link">Offer</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a href="/#section_6" class="site-footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                    <h5 class="site-footer-title mb-3">Have a question?</h5>
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel:+917558019817" class="site-footer-link">+917558019817</a>
+                    </p>
+                    <p class="text-white d-flex">
+                        <a href="mailto:humbloeatsltd@gmail.com" class="site-footer-link">humbloeatsltd@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                    <h5 class="site-footer-title mb-3">Location</h5>
+                    <p class="text-white d-flex mt-3 mb-2">indiranagar, bangalore, India</p>
+                    <a class="link-fx-1 color-contrast-higher mt-3" href="/#section_6">
+                        <span>Our Maps</span>
+                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="16" cy="16" r="15.5"></circle>
+                                <line x1="10" y1="18" x2="16" y2="12"></line>
+                                <line x1="16" y1="12" x2="22" y2="18"></line>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mt-5">
+                        <p class="copyright-text">Copyright © 2025 Humblo</p>
+                    </div>
+                    <div class="col-lg-8 col-12 mt-lg-5">
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Terms & Conditions</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Privacy Policy</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Your Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>      
