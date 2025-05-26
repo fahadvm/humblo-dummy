@@ -12,17 +12,18 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #e33675;/*   '' */
-  --secondary-color:              #e33675;/*   '' */
+  --primary-color:                #ffc525;/*   '' */
+  --secondary-color:              #ffc525;/*   '' */
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #e33675;/*   '' */
-  --custom-btn-bg-hover-color:    #c01f27;
+  --custom-btn-bg-color:          #ffc525;/*   '' */
+  --custom-btn-bg-hover-color:    #e8bddb;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --link-hover-color:             #e8bddb;
 
   --body-font-family:             'Outfit', sans-serif;
+  --bubbly-font-family:            'Fredoka', sans-serif;
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
@@ -44,11 +45,16 @@ https://templatemo.com/tm-583-festava-live
 }
 
 body {
-  background-color: #70048c
+  background-color: #46268a;
 
 
 ;
   font-family: var(--body-font-family); 
+}
+
+.bubbly{
+  font-family: var(--bubbly-font-family); 
+  
 }
 
 
@@ -222,7 +228,7 @@ strong {
 }
 
 .section-bg {
-  background-color:  #e33675
+  background-color:  #ffc525;
 
 ;
 }
@@ -513,7 +519,7 @@ strong {
 -----------------------------------------*/
 .about-section {
   /* background-image: url('../images/edward-unsplash-blur.jpg'); */
-  background-color: #e33675
+  background-color: #ffc525;
 
 
 ;
@@ -777,10 +783,15 @@ strong {
   align-items: center;
   width: 120px;
   height: 120px;
-  position: absolute;
   top: 0;
   right: 0;
   margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-tag {
+    display: hidden;
+  }
 }
 
 .pricing-tag span {
@@ -789,11 +800,11 @@ strong {
 }
 
 .pricing-thumb .link-fx-1 {
-  color: var(--primary-color);
+  color:white;
 }
 
 .pricing-thumb .link-fx-1:hover {
-  color: var(--link-hover-color);
+  color:  #46268a;
 }
 
 
