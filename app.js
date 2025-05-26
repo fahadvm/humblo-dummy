@@ -55,8 +55,8 @@ app.use('/',userRouter);
 
 
 
-app.listen(3008,()=>{
-    console.log(`server running http://localhost:3008`)
+app.listen( process.env.PORT,()=>{
+    console.log(`server running http://localhost:${process.env.PORT}`)
 })
 
 
