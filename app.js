@@ -56,7 +56,7 @@ app.use('/',userRouter);
 
 
 app.listen( process.env.PORT,()=>{
-    console.log(`server running http://localhost:${process.env.PORT}`)
+    console.log(`server running https://humblo.in`)
 })
 
 
