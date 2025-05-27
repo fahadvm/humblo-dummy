@@ -735,6 +735,9 @@ strong {
   box-shadow: none;
   position: relative;
 }
+.products-image{
+  border-radius: 20px;
+}
 
 .schedule-table h3,
 .schedule-table p {
